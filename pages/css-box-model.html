@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_box_model</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0 60px;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .layout-Wrapper .block-box {
+            width: 300px;
+            height: 300px;
+            background: #0070c0;
+            color: #fff;
+            text-align: center;
+            line-height: 300px;
+        }
+
+        .layout-Wrapper .inline-box {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            display: inline-block;
+            background: #e6a4d2;
+            color: #fff;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Block 요소 (width: 300px, height: 300px)</h1>
+    <div class="layout-Wrapper">
+        <div class="block-box">Block</div>
+    </div>
+    <h1>Inline 요소 (width: 100px, height: 100px)</h1>
+    <div class="layout-Wrapper">
+        <span class="inline-box">inline</span>
+        <span class="inline-box">inline</span>
+        <span class="inline-box">inline</span>
+    </div>
+</body>
+</html>

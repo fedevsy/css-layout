@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-layout</title>
+    <link href="../assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/font.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/grid-layout.css" rel="stylesheet" type="text/css">
+    <!--font-awesome5 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="../assets/css/grid-layout-media-query.css " rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--header-->
+    <header id="header">
+        <div class="top-banner">
+            <div class="container grid">
+                <div class="contact-number">
+                    <b>Questions? Need Help?</b>&nbsp;&nbsp;Call us on (+123) 456 1500
+                </div>
+                <div class="recommend-list">
+                    <a href="#" class="list-item gift-card">
+                        <i class="fas fa-gift"></i>
+                        BTP Gift Card
+                    </a>
+                    <a href="#" class="list-item loyalty-program">
+                        <i class="far fa-star"></i>
+                        Loyalty Program
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo-area">
+            <div class="container grid">
+                <h1 class="logo">
+                    BEST&nbsp;<span class="main-color">YOUR</span>&nbsp; PLAN
+                </h1>
+                <div class="search-form">
+                    <form id="search-form">
+                        <input id="input-text" class="input-text" type="text" placeholder="Search Location">
+                        <button id="btn-Search" class="btn-submit" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="info-box">
+                    <div class="grid">
+                        <div class="cart-info">
+                            <i class="fas fa-shopping-cart"></i><span class="dot-count">3</span>
+                        </div>
+                        <div class="user-info">
+                            <img class="profile-pic" src="../assets/images/profile.png" alt="profile-picture">
+                            <span class="user-name"> Nathan
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <button type="button" class="mobile-toggle mobile-menu"><i class="fas fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <nav class="gnb-area">
+            <ul class="container grid list_nav">
+                <li class="item">
+                    <a class="nav" href="#" title="All Deals">ALL DEALS</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="#" title="Hotels">HOTELS</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="#" title="Activities">ACTIVITIES</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="#" title="Hotel Day Packages">HOTEL DAY PACKAGES</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="#" title="Restaurants">RESTRAURANTS</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="#" title="Events">EVENT</a>
+                </li>
+                <li class="item">
+                    <a class="nav" href="#" title="Rodrigues">RODRIGUES</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--hotel-info-->
+    <section id="hotel-info">
+        <div class="breadcrumb">
+            <div class="grid container">
+                <a class="item nav" href="#">Home</a>
+                <span class="item">/</span>
+                <a class="item nav" href="#">Flash Offers</a>
+                <span class="item">/</span>
+                <a class="item nav" href="#">Grand Hilton Hotel</a>
+            </div>
+        </div>
+        <div class="rattings">
+            <div class="grid container">
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="hotel-name">
+                    <span class="name">GRAND HILTON HOTEL</span>
+                    <span class="offer">Flash Offer</span>
+                </div>
+
+                <div class="intro">
+                    Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free
+                </div>
+                <div class="user-rattings">
+                    <span>User Rattings</span><br>
+                    <span><strong class="score">4.5/<small>5</small></strong></span>
+                </div>
+            </div>
+        </div>
+        <div class="foreground">
+            <div class="grid container">
+                <div class="main-hotel-img">
+                    <img class="img" src="../assets/images/main-hotel.png" alt="main-hotel">
+                </div>
+                <div class="sidebar">
+                    <div class="grid">
+                        <div class="price">
+                            price starts as<br>
+                            <em class="start-price">$ 8,500</em><br>
+                            per room / night
+                        </div>
+                        <div class="guest">
+                            <div><i class="fas fa-user"></i>&nbsp;&nbsp;2 x Guests</div>
+                            <div><i class="fas fa-home"></i>&nbsp;&nbsp;1 x Room</div>
+                        </div>
+                        <div class="booking">
+                            Quick Booking
+                        </div>
+                        <div class="call-num">
+                            <i class="fas fa-phone-alt"></i>&nbsp;12100
+                        </div>
+                        <a href="#" class="btn btn-more">
+                            View Other Options
+                        </a>
+                    </div>
+                </div>
+                <div class="map">
+                    <img class="map-img" src="../assets/images/map.png" alt="hotel">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--detail-info-->
+    <section id="detail-info">
+        <div class="container">
+            <ul class="sub-menu grid">
+                <li class="list-item active">
+                    <a class="tab" href="#">Package Summery</a>
+                </li>
+                <li class="list-item">
+                    <a class="tab" href="#">Hotel Information</a>
+                </li>
+                <li class="list-item">
+                    <a class="tab" href="#">Rooms</a>
+                </li>
+                <li class="list-item">
+                    <a class="tab" href="#">Facilities & Activities</a>
+                </li>
+                <li class="list-item">
+                    <a class="tab" href="#">Dining & Entertainment</a>
+                </li>
+                <li class="list-item">
+                    <a class="tab" href="#">Reviews </a>
+                </li>
+                <li class="list-item">
+                    <a class="tab" href="#">Questions & Answers</a>
+                </li>
+            </ul>
+            <div class="package-summery">
+                <h2 class="title">Package Summery</h2>
+                <div class="grid">
+                    <div class="card highlights">
+                        <div class="card-header">
+                            <h3>Package Highlights</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="grid">
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Half Board/ All Inclusive
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Luxurious 5-Star Hotel
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Child Under 11 Years Stay Free
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Banyan An Adult Only Zone
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> LUX* Me Spa
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card details">
+                        <div class="card-header">
+                            <h3>Offer Details</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="check-list grid">
+                                <li class="icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </li>
+                                <li class="period">
+                                    from a special<br>
+                                    discounted CHILL’OUT OFFER<br>
+                                    at Grand Hilton Hotel.<br>
+                                    <span>* Valid until 30 April 2020</span>
+                                </li>
+                                <li class="icon">
+                                    <i class="far fa-calendar"></i>
+                                </li>
+                                <li class="period">
+                                    10th March - 30th April 2020
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Package Summery Details</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="grid">
+                            <ul class="package-details package-details1">
+                                <li class="list-item sub-title">
+                                    Purchase Inclusions
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Room as per selection
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Half Board or All Inclusive Meal Plan
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Complimentary Land & Water activities
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Child Under 11 years old stays free
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Free Wi-Fi
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Free Secure Parking
+                                </li>
+                            </ul>
+                            <ul class="package-details package-details2">
+                                <li class="list-item sub-title">
+                                    Complimentary Land Based Activities
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Gym
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Beach Volley
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Table tennis
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Soccer balls
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Yoga
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Unlimited access to driving range
+                                </li>
+                            </ul>
+                            <ul class="package-details package-details3">
+                                <li class="list-item sub-title">
+                                    Complimentary Water Based Activities
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Water skiing
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Windsurfing
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Pedal boats
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Kayaking
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Aqua Gym
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Glass bottom boat trips
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="grid">
+                            <ul class="package-details package-details4">
+                                <li class="list-item sub-title">
+                                    Meal Plan Available
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Half Board
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> All Inclusive
+                                </li>
+                            </ul>
+                            <ul class="package-details package-details5">
+                                <li class="list-item sub-title">
+                                    Entertainment
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Live music
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> DJ & Mauritian Dance Show
+                                </li>
+                            </ul>
+                            <ul class="package-details package-details6">
+                                <li class="list-item sub-title">
+                                    Check In & Check Out
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Check In Time 14:00
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-check-circle"></i> Check Out Time 11:00
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- other-packages -->
+    <section id="other-pkg">
+        <div class="container">
+            <h2 class="title">OTHER PACKAGES</h2>
+            <div class="grid">
+                <div class="hotel hotel1">
+                    <div class="grid">
+                        <div class="list-item hotel-bg"></div>
+                        <span class="label">Flash Offer</span>
+                        <div class="hotel-info">
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3 class="name">Hotel Blue Haven</h3>
+                            <p class="intro">
+                                Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim laborum
+                                magna llit. Ipsum est fugiat velit ea llamco do esse ut in veniam sun in onsequat.
+                                Aute
+                                quis
+                                duis epteur excepteur ipsum occaecat eiusmod nsectetur enim laborum magna mollit.
+                                Ipsum
+                                est
+                                fugiat velit ea ullamco do
+                            </p>
+                            <ul class="about">
+                                <li class="">
+                                    <i class="fas fa-map-marker-alt"></i> 1749 Wheeler Ridge Delaware
+                                </li>
+                                <li class="">
+                                    <i class="fas fa-user"></i> 2 x Guests
+                                </li>
+                                <li class="">
+                                    <i class="fas fa-home"></i> 1 x Room
+                                </li>
+                            </ul>
+                            <div class="grid grid-price">
+                                <s class="price">$ 10,500</s>
+                                <div class="discount-price">$ 8,500</div>
+                                <a class="btn" href="#">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel hotel2">
+                    <div class="grid">
+                        <div class="list-item hotel-bg"></div>
+                        <span class="label">Flash Offer</span>
+                        <div class="list-item hotel-info">
+                            <h3 class="name">LUX* Belle Mare</h3>
+                            <ul class="about">
+                                <li class="list-item">
+                                    <i class="fas fa-map-marker-alt"></i> 1749 Wheeler Ridge Delaware
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-user"></i> 2 x Guests
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-home"></i> 1 x Room
+                                </li>
+                            </ul>
+                            <div class="grid grid-price">
+                                <s class="price">$ 10,500</s>
+                                <div class="discount-price">$ 8,500</div>
+                                <a class="btn" href="#">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel hotel3">
+                    <div class="grid">
+                        <div class="list-item hotel-bg"></div>
+                        <span class="label">Flash Offer</span>
+                        <div class="list-item hotel-info">
+                            <h3 class="name">LUX* Belle Mare</h3>
+                            <ul class="about">
+                                <li class="list-item">
+                                    <i class="fas fa-map-marker-alt"></i> 1749 Wheeler Ridge Delaware
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-user"></i> 2 x Guests
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-home"></i> 1 x Room
+                                </li>
+                            </ul>
+                            <div class="grid grid-price">
+                                <s class="price">$ 10,500</s>
+                                <div class="discount-price">$ 8,500</div>
+                                <a class="btn" href="#">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel hotel4">
+                    <div class="grid">
+                        <div class="list-item hotel-bg"></div>
+                        <span class="label">Flash Offer</span>
+                        <div class="list-item hotel-info">
+                            <h3 class="name">LUX* Belle Mare</h3>
+                            <ul class="about">
+                                <li class="list-item">
+                                    <i class="fas fa-map-marker-alt"></i> 1749 Wheeler Ridge Delaware
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-user"></i> 2 x Guests
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-home"></i> 1 x Room
+                                </li>
+                            </ul>
+                            <div class="grid grid-price">
+                                <s class="price">$ 10,500</s>
+                                <div class="discount-price">$ 8,500</div>
+                                <a class="btn" href="#">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel hotel5 md_display_none">
+                    <div class="grid">
+                        <div class="list-item hotel-bg"></div>
+                        <span class="label">Flash Offer</span>
+                        <div class="list-item hotel-info">
+                            <h3 class="name">LUX* Belle Mare</h3>
+                            <ul class="about">
+                                <li class="list-item">
+                                    <i class="fas fa-map-marker-alt"></i> 1749 Wheeler Ridge Delaware
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-user"></i> 2 x Guests
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-home"></i> 1 x Room
+                                </li>
+                            </ul>
+                            <div class="grid grid-price">
+                                <s class="price">$ 10,500</s>
+                                <div class="discount-price">$ 8,500</div>
+                                <a class="btn" href="#">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review-area -->
+    <section id="review-area">
+        <div class="container">
+            <div class="grid">
+                <h2 class="title">WHAT PEOPLE THINKS ABOUT US</h2>
+                <div class="grid review-box">
+                    <img class="reviewer-img" src="../assets/images/reviewer.png" alt="review" />
+                    <div class="reviewer-info">
+                        <h3 class="sub-title">Megan Fox</h3>
+                        <p class="date">Stayed 18 Nov, 2019</p>
+                        <div class="review-rattings">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="review text-left">
+                        It was very nice hotel with cleanliness. Staff behavior was good and polite. They
+                        welcome us very well. Issue was only that Lift was not in working and we were allotted to 3rd
+                        floor
+                        and amenities articles were in corner of gallery which were giving bad feeling. Breakfast was
+                        good
+                        and support of the staff was also very nice. Location is not good as per atmosphere, it is very
+                        nearby most of the popular places but self location in a narrow street is not good. Overall it
+                        was a
+                        good experience and could recommend.
+                    </p>
+                </div>
+                <i class="fas fa-chevron-left prev"></i>
+                <i class="fas fa-chevron-right next"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe -->
+    <section id="subscribe">
+        <div class="grid container">
+            <div class="news-letter">
+                <p class="text">subscribe to our</p>
+                <h2 class="sub-title">NEWSLETTER</h2>
+            </div>
+            <form class="mailto-box">
+                <input class="email" type="text" placeholder="Your email address">
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- other-activities -->
+    <section id="other-activities">
+        <div class="container">
+            <h2 class="title">OTHER ACTIVITIES</h2>
+            <div class="grid">
+                <div class="act act1 card">
+                    <div class="card-body">
+                        <p class="sub-title">The curious corner<br>of chamarel</p>
+                        <a class="btn" href="#">Book now</a>
+                    </div>
+                </div>
+                <div class="act act2 card">
+                    <div class="card-body">
+                        <p class="sub-title">Gymkhana club golf<br>course</p>
+                        <a class="btn" href="#">Book now</a>
+                    </div>
+                </div>
+                <div class="act act3 card">
+                    <div class="card-body">
+                        <p class="sub-title">Tamarind falls hiking<br>trip - full day</p>
+                        <a class="btn" href="#">Book now</a>
+                    </div>
+                </div>
+                <div class="act act4 card">
+                    <div class="card-body">
+                        <p class="sub-title">The blue marine discovery<br>quest</p>
+                        <a class="btn" href="#">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="grid sitemap">
+                <li class="list-item">
+                    <h2 class="logo">
+                        BEST<br>
+                        <span class="main-color">TOUR</span><br>
+                        PLAN
+                    </h2>
+                </li>
+                <li class="list-item">
+                    <h3 class="category-title">ALL CATEGORIES</h3>
+                    <a class="nav" href="#">All Deals</a>
+                    <a class="nav" href="#">Hotels</a>
+                    <a class="nav" href="#">Activities</a>
+                    <a class="nav" href="#">Spa Packages</a>
+                    <a class="nav" href="#">Hotel Day Packages</a>
+                    <a class="nav" href="#">Restaurants</a>
+                    <a class="nav" href="#">Fitness</a>
+                    <a class="nav" href="#">Rodrigues</a>
+                </li>
+                <li class="list-item">
+                    <h3 class="category-title">ADDITIONAL INFORMATION</h3>
+                    <a class="nav" href="#">About Us</a>
+                    <a class="nav" href="#">Contact Us</a>
+                    <a class="nav" href="#">How does it work?</a>
+                    <a class="nav" href="#">Frequently Asked Questions</a>
+                    <a class="nav" href="#">Deals.mu loyalty program</a>
+                    <a class="nav" href="#">Promote your Business on BTP</a>
+                    <div class="category-title">
+                        <span>Social Network</span>
+                        <span class="social">
+                            <i class="icon fab fa-facebook-square"></i>
+                            <i class="icon fab fa-youtube"></i>
+                            <i class="icon fab fa-instagram"></i>
+                        </span>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <h3 class="category-title">LEGAL INFORMATION</h3>
+                    <a class="nav" href="#">Terms & Conditions</a>
+                    <a class="nav" href="#">Disclaimer</a>
+                    <a class="nav" href="#">Cancellation policy</a>
+                    <a class="nav" href="#">Privacy</a>
+                </li>
+            </ul>
+            <ul class="grid contact-detail">
+                <li class="list-item">
+                    <h3 class="category-title">Contact Details</h3>
+                    <table class="contact-detail-table">
+                        <tr>
+                            <td class="info how-contact" colspan="2">Feel free to contact us by phone, email or by
+                                our
+                                contact form</td>
+                        </tr>
+                        <tr>
+                            <td class="info map-info">
+                                <i class="icon fas fa-map-marker-alt"></i>
+                            </td>
+                            <td class="info map-info address">Blossom Hill Rd undefined Lansing, Idaho 68545 United
+                                States</td>
+                        </tr>
+                        <tr>
+                            <td class="info phone-info">
+                                <i class="icon fas fa-phone-alt"></i>
+                            </td>
+                            <td class="info phone-info operation-time">Tel (business hours) : 269 1500<br>
+                                Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)<br>
+                                Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</td>
+                        </tr>
+                        <tr>
+                            <td class="info mail-info">
+                                <i class="icon fas fa-envelope"></i>
+                            </td>
+                            <td class="info mail-info representative-mail">cherly.lawson@example.com</td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="list-item">
+                    <h3 class="category-title">Send us a message</h3>
+                    <form class="grid contact-form">
+                        <input class="name" type="text" placeholder="Your Full Name*">
+                        <input class="tel" type="tel" placeholder="Phone Number*">
+                        <textarea class="textarea"></textarea>
+                        <button type="submit" class="btn">Send</button>
+                        <span class="require">* Required Fields</span>
+                    </form>
+                </li>
+            </ul>
+            <p class="copyright text-center">Disclaimer&nbsp;&nbsp;&nbsp;Conditions of
+                use&nbsp;&nbsp;&nbsp;Cancellation
+                policy</p>
+        </div>
+    </footer>
+    <div class="scroll-btn">
+        <button type="button" id="up-btn" title="scroll_to_the_top"><i class="fas fa-chevron-up"></i></button>
+        <button type="button" id="down-btn" title="scroll_to_the_bottom"><i class="fas fa-chevron-down"></i></button>
+    </div>
+    <div class="menuwrap">
+        <nav id="menu">
+            <ul class="mmenu">
+                <li class="list-item">
+                    <h2 class="logo">
+                        BEST <span class="main-color">YOUR</span> PLAN
+                    </h2>
+                </li>
+                <li class="list-item">
+                    <a class="nav" href="#" title="All Deals">ALL DEALS</a>
+                </li>
+                <li class="list-item">
+                    <a class="nav" href="#" title="Hotels">HOTELS</a>
+                </li>
+                <li class="list-item">
+                    <a class="nav" href="#" title="Activities">ACTIVITIES</a>
+                </li>
+                <li class="list-item">
+                    <a class="nav" href="#" title="Hotel Day Packages">HOTEL DAY PACKAGES</a>
+                </li>
+                <li class="list-item">
+                    <a class="nav" href="#" title="Restaurants">RESTRAURANTS</a>
+                </li>
+                <li class="list-item">
+                    <a class="nav" href="#" title="Events">EVENT</a>
+                </li>
+                <li class="list-item">
+                    <a class="nav" href="#" title="Rodrigues">RODRIGUES</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="../assets/js/common.js"></script>
+    <script>
+        document.getElementById("up-btn").addEventListener('click', function () {
+            scrollTo(document.getElementsByTagName("body")[0], "up");
+        });
+
+        document.getElementById("down-btn").addEventListener('click', function () {
+            scrollTo(document.getElementsByTagName("body")[0], "down");
+        });
+    </script>
+</body>
+
+</html>

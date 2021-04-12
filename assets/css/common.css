@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: #364f6b;
+}
+
+b,
+h1,
+h2,
+h3,
+strong {
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0
+}
+
+small {
+    font-size: 70%;
+}
+
+hr {
+    border: 1px dashed #e0e0e0;
+    margin: 2rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.main-color {
+    color: #fc5185;
+}
+
+.main-bg {
+    background: #fc5185;
+}
+
+.fa-check-circle,
+.fa-calendar,
+.fa-map-marker-alt,
+.fa-user,
+.fa-home {
+    margin-right: .3rem;
+}
+
+.title {
+    padding: 2.5rem 0;
+    font-size: 1.7rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.sub-title {
+    color: #fc5185;
+    font-weight: 600;
+}
+
+.btn {
+    padding: 0.7rem 2rem;
+    background: #fc5185;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border-radius: .3rem;
+    outline: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 75rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.card .card-header {
+    background: #364f6b;
+    color: #fff;
+    padding: 1.2rem;
+}
+
+.card .card-body {
+    background: #fff;
+    padding: 1.2rem;
+    min-height: 154px;
+    height: 100%;
+}
+
+.card-body .list-item {
+    line-height: 2.4;
+}
+
+
+.icon,
+.period {
+    display: inline-block;
+    vertical-align: top;
+}

@@ -1,0 +1,395 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 1024px;
+    }
+
+    .list_nav .nav_item {
+        margin-right: 3.65rem;
+    }
+
+    .sub-menu .list-item {
+        font-size: .9rem;
+        margin-right: 1.57rem;
+    }
+
+    .card-body .list-item {
+        font-size: .8rem;
+    }
+
+    #lineBanner {
+        padding: 1rem 0;
+    }
+
+    #hotelInfo .slider {
+        max-width: 42rem;
+    }
+
+    #hotelInfo .simple-info {
+        padding: 1.5rem;
+        margin-bottom: .8rem;
+    }
+
+    #hotelInfo .simple-info,
+    #hotelInfo .map {
+        max-width: 19rem;
+    }
+
+    .simple-info .price,
+    .simple-info .guest {
+        font-size: .8rem;
+    }
+
+    .simple-info .booking {
+        font-size: 1rem;
+    }
+
+    .card.highlights .list-item,
+    .card.details .list-item,
+    .card-body .package-details {
+        font-size: .9rem;
+    }
+
+    .hotel-info .intro {
+        line-height: 1.5;
+        margin: 1.35rem 0;
+    }
+
+    .act .sub-title {
+        font-size: .9rem;
+    }
+
+    .sitemap .category-title,
+    .sitemap .social,
+    .contact-detail .category-title {
+        font-size: .9rem;
+    }
+
+    #footer {
+        font-size: .8rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 2rem 0;
+    }
+
+    .container {
+        width: 768px;
+    }
+
+    .list_nav .nav_item {
+        margin-right: 1.83rem;
+    }
+
+    .list_nav .nav_item .nav {
+        padding: 1.3rem 0;
+    }
+
+    #searchForm {
+        display: none;
+    }
+
+    #hotelInfo .slider {
+        max-width: 48.3rem;
+        width: 55%;
+    }
+
+    #hotelInfo .simple-info {
+        width: 43%;
+        margin: 0;
+        padding: 2.4rem 1.5rem;
+    }
+
+    .sub-menu .list-item {
+        width: 23.5%;
+        margin: .5rem 2% .5rem 0;
+    }
+
+    .sub-menu .list-item:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .sub-menu .list-item .tab {
+        display: inline-block;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .card.highlights .list-item,
+    .card.details .list-item {
+        width: 100%;
+        float: inherit;
+    }
+
+    .card.details .list-item:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    .card .card-body {
+        min-height: 206.4px;
+    }
+
+    .card-body .package-details {
+        width: 50%;
+        margin: .5rem 0;
+    }
+
+    .hotel .hotel-info {
+        padding: 1.7rem;
+    }
+
+    .hotel1 .hotel-bg {
+        float: none;
+        width: 100%;
+        height: 10rem
+    }
+
+    .hotel1 .hotel-info {
+        width: 100%;
+    }
+
+    .main-hotel,
+    .sub-hotel {
+        width: 49%;
+    }
+
+    .hotel .label {
+        top: 1.5rem;
+    }
+
+    .main-hotel .fa-star,
+    .main-hotel .intro,
+    .md_display_none {
+        display: none;
+    }
+
+    #subscribe .news-letter {
+        margin-left: 10%;
+        width: 40%;
+    }
+
+    #subscribe .mailto-box {
+        margin-right: 10%;
+        width: 40%;
+    }
+
+    .news-letter .text {
+        margin-bottom: .3rem;
+    }
+
+    #otherActivities .card {
+        width: 48%;
+        margin-bottom: 1rem;
+    }
+
+    #otherActivities .card:nth-child(2n) {
+        margin: 0;
+    }
+
+    #otherActivities .card-body {
+        min-height: auto;
+    }
+
+    #reviewArea .review-box {
+        max-width: 85%;
+        margin: 6rem auto 1rem
+    }
+
+    .sitemap .logo {
+        font-size: 3rem;
+    }
+
+    .sitemap .category-title,
+    .sitemap .social,
+    .contact-detail .category-title {
+        font-size: .8rem;
+    }
+
+    #footer {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #gnb,
+    #logoArea .info,
+    .recommend-list,
+    .search-box {
+        display: none;
+    }
+
+    #logoArea {
+        padding: 1.5rem 0;
+    }
+
+    .user-rattings {
+        top: auto;
+        right: 2rem;
+        bottom: -8rem;
+        z-index: 1;
+    }
+
+    .rattings .offer {
+        display: inline-block;
+    }
+
+    #hotelInfo .slider {
+        margin-bottom: 1rem;
+    }
+
+    #hotelInfo .slider,
+    #hotelInfo .simple-info {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .sub-menu .list-item {
+        width: 47%;
+    }
+
+    .package-summery .card.highlights,
+    .package-summery .card.details,
+    .card-body .package-details,
+    .contact-detail .list-item {
+        width: 100%;
+    }
+
+    .main-hotel,
+    .sub-hotel {
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+
+    #subscribe .news-letter {
+        width: 90%;
+    }
+
+    #subscribe .mailto-box {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .sitemap .list-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+
+    .customer-number {
+        font-size: .7rem;
+        float: none;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 1.7rem;
+        margin: 0;
+    }
+
+    #pageInfo {
+        font-size: 0.7rem;
+    }
+
+    .rattings .name {
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+
+    .rattings .intro {
+        line-height: 1.2;
+    }
+
+    .user-rattings {
+        right: 1.5rem;
+        bottom: -7.5rem;
+        font-size: .6rem;
+    }
+
+    .hotel-info .btn,
+    .act .btn {
+        width: 100%;
+        float: none;
+        font-size: .8rem;
+        margin-top: .3rem;
+    }
+
+    .sub-menu .list-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    .card .card-body {
+        min-height: auto;
+    }
+
+    #reviewArea .review-box {
+        max-width: 100%;
+    }
+
+    .review-box .review {
+        width: 80%;
+        font-size: .8rem;
+        line-height: 1.6;
+    }
+
+    .review-box .review-rattings {
+        margin: .5rem 0;
+    }
+
+    #subscribe .news-letter {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .news-letter .text {
+        font-size: 1.1rem;
+    }
+
+    .news-letter .sub-title {
+        font-size: 1.8rem;
+    }
+
+    #subscribe .mailto-box {
+        width: 100%;
+        margin: 1rem 0 0;
+    }
+
+    .mailto-box .email {
+        padding: 1.2rem 0.7rem;
+    }
+
+    .mailto-box .btn {
+        padding: 1.2rem 0;
+    }
+
+    #otherActivities .card,
+    #otherActivities .card:nth-child(2n) {
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+
+    .sitemap .list-item {
+        width: 100%;
+    }
+}
